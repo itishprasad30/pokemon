@@ -14,7 +14,7 @@ const CardDetails = () => {
       }
     };
     fetchPage();
-  }, []);
+  }, [page]);
 
   useEffect(() => {
     const fetchPosts = async () => {
